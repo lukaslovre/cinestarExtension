@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "CineStar Ratings",
+  "version": "1.0",
+
+  "description": "Upgrade your movie browsing experience with MovieRater Pro, a browser extension that seamlessly integrates IMDb and Rotten Tomatoes ratings next to movie titles at your favorite movie theater's website. No longer will you need to open multiple tabs or search for ratings manually, as this smart extension does all the work for you.",
+
+  "icons": {
+    "48": "icons/icon48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.cinestarcinemas.hr/na-programu/*"],
+      "js": ["contentScript.js"],
+      "css": ["contentCss.css"]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "cineRatings@email.com"
+    }
+  }
+}

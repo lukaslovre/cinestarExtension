@@ -1,0 +1,88 @@
+{
+  "5ec5ab76-d36c-4677-8f2a-a1dbcf4176ea": {
+    "descriptionShort": "Zvijezda filma No\u017e u le\u0111a (Knives Out) Toni Collette glumi nesretnu, usamljenu stanovnicu predgra\u0111a, koja neo\u010dekivano postaje vo\u0111a jedne od najstra\u0161nijih kriminalnih organizacija na svijetu. Monica Bellucci joj u tome...",
+    "posterURL": "https://orchestrationlayer.cloudticket.net/contents/img?q=68HqXDePGH9SmgAAFEPACTb",
+    "audioTechnology": null,
+    "performances": [
+      {
+        "attributes": [
+          { "id": "2d", "name": "2D" },
+          { "id": "titl", "name": "TITL" }
+        ],
+        "concessionOptions": null,
+        "date": null,
+        "deeplinkURL": null,
+        "id": "6BC36000023KBHTNGF",
+        "showtime": null,
+        "theatreID": "F0000000015KBHTNGF",
+        "theatreName": "BC eXtreme by Index.hr dv 11",
+        "timeUtc": 1682616600000,
+        "type": null,
+        "supplementaryProductList": [],
+        "cinema": "e2611de6-b6f4-45e4-a2b6-15cdd0f67fce"
+      }
+    ],
+    "technologyAttributes": [
+      { "id": "2d", "name": "2D" },
+      { "id": "titl", "name": "TITL" }
+    ],
+    "length": 101,
+    "ratingSummaries": [],
+    "reservationID": null,
+    "weekAtTheater": null,
+    "titleDisplay": null,
+    "technology": null,
+    "startingDate": null,
+    "order": 0.2,
+    "posterAttribute": { "position": "bottom", "name": "PRETPREMIJERA" },
+    "filmTechnology": null,
+    "teaser": null,
+    "genres": ["Komedija"],
+    "isEvent": null,
+    "websiteURL": null,
+    "productionYear": 2023,
+    "origTitle": "Mafia Mamma",
+    "ambientURL": null,
+    "title": "Mafija mama         ",
+    "images": {
+      "poster": {
+        "id": 8007,
+        "format": "none",
+        "alt": null,
+        "url": "https://cinestarcinemas.hr/wp-content/uploads/2023/03/Mafia-Mama-HR.jpg",
+        "position": null
+      },
+      "ambient": {
+        "id": 8008,
+        "format": "none",
+        "alt": null,
+        "url": "https://cinestarcinemas.hr/wp-content/uploads/2023/03/2000x1000_MAFIA_MAMMA_CS_HR.jpg",
+        "position": 17
+      },
+      "backgrounds": [
+        {
+          "id": 8009,
+          "format": "none",
+          "alt": null,
+          "url": "https://cinestarcinemas.hr/wp-content/uploads/2023/03/2000x1000_MAFIA_MAMMA_CS_HR_02.jpg",
+          "position": null
+        }
+      ]
+    },
+    "tags": [],
+    "id": "97510000012FEPADHG",
+    "categories": [],
+    "trailerURL": "https://www.youtube.com/watch?v=owfqaoomMpg",
+    "description": "Zvijezda filma No\u017e u le\u0111a (Knives Out) Toni Collette glumi nesretnu, usamljenu stanovnicu predgra\u0111a, koja neo\u010dekivano postaje vo\u0111a jedne od najstra\u0161nijih kriminalnih organizacija na svijetu. Monica Bellucci joj u tome poma\u017ee kao mentorica.\r\n\r\nAmerikanka iz predgra\u0111a koja naslje\u0111uje mafija\u0161ko carstvo svog djeda putuje sve do ruralne Italije. Ona je naime odabrana da postane novi vo\u0111a jedne od najstra\u0161nijih kriminalnih obitelji u zemlji. Upu\u0161ta se u posao koji ne mo\u017ee razumjeti, a ne poma\u017ee ni \u010dinjenica nikad prije nije kro\u010dila u Europu i da ve\u0107ina njezinih saznanja o mafiji potje\u010de iz lo\u0161ih TV emisija i filmova. Morat \u0107e nau\u010diti sve, i to brzo, ako zaista \u017eeli da je po\u010dnu tretirati kao nemilosrdnog mafija\u0161kog \u0161efa i postane \"Mafia mama\".\r\n",
+    "productionCountry": "SAD",
+    "actors": [],
+    "fsk": 15,
+    "imageURLs": [
+      "https://orchestrationlayer.cloudticket.net/contents/img?q=68HqXDePGH9SmgAAFEPACTb"
+    ],
+    "filmID": 0,
+    "pk": "5ec5ab76-d36c-4677-8f2a-a1dbcf4176ea",
+    "directors": [{ "id": null, "imageURL": null, "name": "Catherine Hardwicke" }],
+    "subTitle": "PRETPREMIJERA"
+  }
+}

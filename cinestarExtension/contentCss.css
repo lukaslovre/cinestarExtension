@@ -1,0 +1,25 @@
+.ratingContainer {
+  padding: 0.5rem 1rem;
+  margin-right: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.025);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  line-height: 1;
+}
+.ratingInnerContainer {
+  margin-top: 0 !important;
+}
+
+.ratingCompany {
+  font-weight: 400;
+  line-height: 1rem;
+  margin-bottom: 0.5rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* za manje ekrane fixat */
