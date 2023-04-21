@@ -7,7 +7,7 @@ const port = 3000;
 let cinestarData = JSON.parse(fs.readFileSync("cinestarData.json"));
 if (cinestarData) console.log("Datoteka ucitana");
 
-app.get("/", async (req, res) => {
+app.get("/getMovies", async (req, res) => {
   res.send(cinestarData);
   tryToUpdateRatings();
 });
