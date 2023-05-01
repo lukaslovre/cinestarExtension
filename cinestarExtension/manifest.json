@@ -9,6 +9,9 @@
     "48": "icons/icon48.png"
   },
 
+  "permissions": ["webRequest"],
+  "host_permissions": ["*://*.cinestarcinemas.hr/na-programu/*"],
+
   "content_scripts": [
     {
       "matches": ["*://*.cinestarcinemas.hr/na-programu/*"],
@@ -16,9 +19,16 @@
       "css": ["contentCss.css"]
     }
   ],
+  "background": {
+    "scripts": ["backgroundScript.js"],
+    "persistent": false,
+    "type": "module"
+  },
+
   "browser_specific_settings": {
     "gecko": {
       "id": "cineRatings@email.com"
     }
-  }
+  },
+  "web_accessible_resources": ["images/imdbIcon.png", "images/letterboxdIcon.png"]
 }

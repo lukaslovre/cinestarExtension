@@ -1,8 +1,17 @@
 const express = require("express");
 const cheerio = require("cheerio");
+const cors = require("cors");
 const fs = require("fs");
 const app = express();
 const port = 3000;
+
+app.use(cors());
+
+/*   
+  cors({
+    origin: "http://yourapp.com",
+  })
+*/
 
 let cinestarData = JSON.parse(fs.readFileSync("cinestarData.json"));
 if (cinestarData) console.log("Datoteka ucitana");
@@ -103,6 +112,7 @@ const getLetterboxdDataFromUrl = async (url) => {
   let imdbUrl = $('[data-track-action="IMDb"]').attr("href");
 
   if (!imdbUrl) imdbUrl = null;
+  if (letterboxdOcjena) letterboxdOcjena = parseFloat(letterboxdOcjena);
 
   return { letterboxdOcjena, imdbUrl };
 };
@@ -213,6 +223,8 @@ const fillCinestarDataWithLetterboxd = async (cinestarData) => {
     );
     if (letterboxdOcjena) movie.letterboxdRating = letterboxdOcjena;
     if (imdbUrl) movie.imdbUrl = imdbUrl;
+
+    movie.letterboxdLastEdited = Date.now();
   }
 
   return cinestarData;
@@ -229,6 +241,7 @@ const fillCinestarDataWithImdb = async (cinestarData) => {
 
     const imdbOcjena = await getImdbDataFromUrl(movie.imdbUrl);
     if (imdbOcjena) movie.imdbRating = imdbOcjena;
+    movie.imdbLastEdited = Date.now();
   }
 
   return cinestarData;
